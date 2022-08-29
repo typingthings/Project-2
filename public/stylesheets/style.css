@@ -10,9 +10,21 @@ body, html {
   color: #333;
 }
 
+#body {
+  background-color: #7CFEF0; 
+  background-color: #6BFFB8;
+  background-color: #2CEAA3; 
+  background-color: #28965A;
+  background-color: #2A6041; 
+}
+
+body {
+background-color: #7CFEF0;
+}
+
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #28965A;
   font-weight: bold;
   transition: color .1s;
 }

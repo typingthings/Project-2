@@ -2,263 +2,263 @@ const { Comment } = require('../models');
 
 const commentdata = [
   {
-    comment_text: 'Nunc rhoncus dui vel sem.',
+    comment_text: 'A terrifying vision of isolation and violence!',
     user_id: 6,
     post_id: 1
   },
   {
-    comment_text: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    comment_text: 'This tense thriller provides a feast of interesting characters.',
     user_id: 6,
     post_id: 8
   },
   {
-    comment_text: 'Aliquam erat volutpat. In congue.',
+    comment_text: 'A fun movie with a fair amount of heart, but not as strong as previous entries...',
     user_id: 3,
     post_id: 10
   },
   {
-    comment_text: 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    comment_text: 'A movie so strange it becomes some sort of goth camp!',
     user_id: 3,
     post_id: 18
   },
   {
-    comment_text: 'In hac habitasse platea dictumst.',
+    comment_text: 'LA becomes the battleground of a fierce hunt in this satisfactory sequel.',
     user_id: 7,
     post_id: 5
   },
   {
-    comment_text: 'Vivamus vestibulum sagittis sapien.',
+    comment_text: 'A heartwrenching, even gutwrenching horror thriller.',
     user_id: 1,
     post_id: 20
   },
   {
-    comment_text: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
+    comment_text: 'An iconic scary movie if there ever was one!',
     user_id: 6,
     post_id: 7
   },
   {
-    comment_text: 'Sed vel enim sit amet nunc viverra dapibus.',
+    comment_text: 'A squad of action heroes are outnumbered in this iconic action movie.',
     user_id: 7,
     post_id: 4
   },
   {
-    comment_text: 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.',
+    comment_text: 'Vampires have evolved into something more, and only Blade can stop them in this exciting sequel!',
     user_id: 6,
     post_id: 12
   },
   {
-    comment_text: 'Morbi a ipsum.',
+    comment_text: 'I have read that this movie has inspired other horror franchises and I am not surprised!',
     user_id: 6,
     post_id: 20
   },
   {
-    comment_text: 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
+    comment_text: 'This movie was silly but I remember it fondly.',
     user_id: 3,
     post_id: 14
   },
   {
-    comment_text: 'Donec ut mauris eget massa tempor convallis.',
+    comment_text: 'I think I prefer the new one, but this is a classic!',
     user_id: 5,
     post_id: 4
   },
   {
     comment_text:
-      'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
+      'This is one of my favorite sci-fi alien stories now, honestly.',
     user_id: 4,
     post_id: 9
   },
   {
     comment_text:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+      'It is a fun good time! I do not see the problem with it.',
     user_id: 5,
     post_id: 14
   },
   {
-    comment_text: 'Quisque porta volutpat erat.',
+    comment_text: 'I love this robot so much you guys.',
     user_id: 6,
     post_id: 2
   },
   {
-    comment_text: 'Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.',
+    comment_text: 'I really felt the heart this movie had, it made mine swell up.',
     user_id: 8,
     post_id: 2
   },
   {
     comment_text:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+      'I really appreciate the impact this movie had, even if it was understated.',
     user_id: 2,
     post_id: 20
   },
   {
-    comment_text: 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.',
+    comment_text: 'Everyone always says this movie is overrated and I hugely disagree!',
     user_id: 4,
     post_id: 11
   },
   {
     comment_text:
-      'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.',
+      'I remember seeing this in theaters and bawling my eyes out!!',
     user_id: 5,
     post_id: 13
   },
   {
     comment_text:
-      'Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.',
+      'If you ask me, the Peter Jackson remake is the best remake of this story.',
     user_id: 9,
     post_id: 16
   },
   {
-    comment_text: 'Curabitur convallis.',
+    comment_text: 'Predators are my favorite sci-fi monster!',
     user_id: 6,
     post_id: 4
   },
   {
-    comment_text: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    comment_text: 'I love how the spinosaurus becomes the new villain immediately.',
     user_id: 4,
     post_id: 10
   },
   {
-    comment_text: 'Morbi non quam nec dui luctus rutrum.',
+    comment_text: 'Best villain in movies tbh.',
     user_id: 3,
     post_id: 8
   },
   {
     comment_text:
-      'Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.',
+      'People underrate this movie and I do not understand why!',
     user_id: 8,
     post_id: 10
   },
   {
     comment_text:
-      'Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+      'This movie deserved all the praise it got!',
     user_id: 1,
     post_id: 15
   },
   {
-    comment_text: 'Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.',
+    comment_text: 'Such a stupid movie, I love it though.',
     user_id: 5,
     post_id: 3
   },
   {
-    comment_text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    comment_text: 'I have never met anyone who disliked this movie.',
     user_id: 1,
     post_id: 15
   },
   {
-    comment_text: 'Nam tristique tortor eu pede.',
+    comment_text: 'My least favorite remake, I think.',
     user_id: 4,
     post_id: 16
   },
   {
-    comment_text: 'Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.',
+    comment_text: 'I think this movie is overrated!',
     user_id: 4,
     post_id: 18
   },
   {
-    comment_text: 'Proin eu mi. Nulla ac enim.',
+    comment_text: 'I prefer the second one!',
     user_id: 4,
     post_id: 10
   },
   {
-    comment_text: 'Sed ante. Vivamus tortor.',
+    comment_text: 'I love Danny Glover in this!',
     user_id: 7,
     post_id: 5
   },
   {
-    comment_text: 'Aliquam quis turpis eget elit sodales scelerisque.',
+    comment_text: 'I think this is my favorite Kubrick film.',
     user_id: 10,
     post_id: 1
   },
   {
-    comment_text: 'Donec quis orci eget orci vehicula condimentum.',
+    comment_text: 'This movie has an iconic jump scare and that is about all it has.',
     user_id: 3,
     post_id: 19
   },
   {
-    comment_text: 'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
+    comment_text: 'I love the speech at the end.',
     user_id: 5,
     post_id: 3
   },
   {
-    comment_text: 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.',
+    comment_text: 'I felt like I forgot everything about this movie when it ended.',
     user_id: 10,
     post_id: 14
   },
   {
-    comment_text: 'Maecenas ut massa quis augue luctus tincidunt.',
+    comment_text: 'People do not get what makes this movie great and I think it is sad.',
     user_id: 10,
     post_id: 8
   },
   {
-    comment_text: 'Cras in purus eu magna vulputate luctus.',
+    comment_text: 'Easily my favorite action hero!',
     user_id: 10,
     post_id: 11
   },
   {
-    comment_text: 'Etiam vel augue. Vestibulum rutrum rutrum neque.',
+    comment_text: 'I think the first one is better.',
     user_id: 8,
     post_id: 5
   },
   {
-    comment_text: 'Proin at turpis a pede posuere nonummy.',
+    comment_text: 'I do not like horror movies made like this one at all!',
     user_id: 8,
     post_id: 19
   },
   {
-    comment_text: 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.',
+    comment_text: 'Horror movies like this one are my absolute favorite!!',
     user_id: 9,
     post_id: 19
   },
   {
     comment_text:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+      'I think the new remake is better than the original.',
     user_id: 5,
     post_id: 4
   },
   {
     comment_text:
-      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+      'Most overrated action flick.',
     user_id: 2,
     post_id: 11
   },
   {
-    comment_text: 'Vestibulum ac est lacinia nisi venenatis tristique.',
+    comment_text: 'This is my least favorite disaster movie...',
     user_id: 4,
     post_id: 6
   },
   {
-    comment_text: 'Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
+    comment_text: "I love this director's movies.",
     user_id: 9,
     post_id: 6
   },
   {
     comment_text:
-      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
+      'I thought this movie was too slow!',
     user_id: 7,
     post_id: 9
   },
   {
-    comment_text: 'Integer ac leo. Pellentesque ultrices mattis odio.',
+    comment_text: 'Overrated horror schlock',
     user_id: 4,
     post_id: 19
   },
   {
-    comment_text: 'Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    comment_text: 'I think this movie is overhyping itself.',
     user_id: 10,
     post_id: 1
   },
   {
     comment_text:
-      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
+      'I am just not a fan of this movie no matter how much I try to enjoy it!',
     user_id: 2,
     post_id: 19
   },
   {
-    comment_text: 'Proin risus. Praesent lectus.',
+    comment_text: 'All time greats!',
     user_id: 10,
     post_id: 1
   },
   {
-    comment_text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.',
+    comment_text: 'I love this movie!',
     user_id: 10,
     post_id: 12
   }
